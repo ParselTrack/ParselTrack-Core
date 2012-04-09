@@ -1,8 +1,9 @@
 ### ParselTrack-Core
 
-This is a plugin for the ParselTrack tracker frontend framework to provide basic core functionality.  It is designed as a separate plugin following the ParselTrack internal communications API which will be documented at https://github.com/ParselTrack/Specifications when finished.
-By providing these core pieces of functionality as a plugin, it allows developers and tracker administrators to fork this project, make modifications as necessary, and use their custom core while still making use of the ParselTrack framework, or to replace this entirely by their own core function implementation.
-Function calls/hooks into this plugin are expected by the ParselTrack framework for some operations, so A fully-fledged core plugin is required with your ParselTrack installation.  Other plugins may hook portions of the core plugin.  If you create your own core or fork this package, please ensure you represent all available function calls following the API spec for compatibility with other ParselTrack components.
+This is a repository of service API modules, documents recommending third-party service provider plugins, and service provider plugins written by the ParselTrack Project team which are consider core functionality for the ParselTrack Project.  
+While all of these things are pluggable in a way which allows them to be replaced in the framework, it is recommended that ParselTrack be installed with the components in ParselTrack-Core.
+Please review https://github.com/ParselTrack/Specifications to find the latest versions of ParselTrack Enhancement Protocol 2 (PTEP 2), PTEP 3, and PTEP 4.
+PTEP 2 documents the basic concept for the framework and services API layer for ParselTrack.  PTEP 3 documents the API used for implementing service API modules.  PTEP 4 documents recommendations for writing services providers or wrappers for third-party providers which are compatible with ParselTrack.
 
-Current development status is WIP/On-Hold, waiting on a finished ParselTrack specification.
+Current development status is WIP/On-Hold.  We are in the process of documenting the ParselTrack specification.
 
