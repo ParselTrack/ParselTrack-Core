@@ -1,0 +1,8 @@
+### ParselTrack-Core
+
+This is a plugin for the ParselTrack tracker frontend framework to provide basic core functionality.  It is designed as a separate plugin following the ParselTrack internal communications API which will be documented at https://github.com/ParselTrack/Specifications when finished.
+By providing these core pieces of functionality as a plugin, it allows developers and tracker administrators to fork this project, make modifications as necessary, and use their custom core while still making use of the ParselTrack framework, or to replace this entirely by their own core function implementation.
+Function calls/hooks into this plugin are expected by the ParselTrack framework for some operations, so A fully-fledged core plugin is required with your ParselTrack installation.  Other plugins may hook portions of the core plugin.  If you create your own core or fork this package, please ensure you represent all available function calls following the API spec for compatibility with other ParselTrack components.
+
+Current development status is WIP/On-Hold, waiting on a finished ParselTrack specification.
+
